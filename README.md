@@ -1,16 +1,97 @@
-# React + Vite
+# 📺 YouTube Content Dashboard & Anti-Piracy Monitor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based dashboard built to search, track, and analyze YouTube content in real time.  
+This project helps monitor newly uploaded videos using custom keywords and filters, making it useful for identifying leaked, pirated, or unauthorized content uploads quickly and efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🎯 Project Objective
 
-## React Compiler
+The main objective of this project is to detect **recently uploaded pirated or leaked content** on YouTube.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+By using targeted search keywords and sorting videos by upload date, the system allows users to:
 
-## Expanding the ESLint configuration
+- Monitor suspicious uploads instantly
+- Track illegal movie releases or leaked footage
+- Identify unauthorized content distribution
+- Create reports for monitoring or takedown purposes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 📸 Project Preview
+
+##  Home
+<img width="988" height="555" alt="image" src="https://github.com/user-attachments/assets/77f8e6a9-14bc-475c-a7e0-8e243e46610a" />
+
+## Search Section
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/67daa255-7e44-40df-bace-720957275a6c" />
+
+---
+
+# ✨ Features
+
+## 🔍 Real-Time Video Monitoring
+- Fetches the latest YouTube uploads instantly
+- Optimized for monitoring newly uploaded content
+- Uses YouTube Data API v3
+
+## 🛡️ Anti-Piracy Detection
+- Search using custom reference keywords
+- Detect terms like:
+  - Full Movie
+  - HDTS
+  - CAM Rip
+  - Leaked
+  - Download
+  
+  <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/7b9c1f80-4d7b-4125-8695-0ea7f35d701c" />
+
+
+## 💾 Persistent Watchlist
+- Save suspicious videos into **My List**
+- Data is stored using browser local storage
+- Watchlist remains even after refresh
+
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/e8c37162-84ad-48fb-84ae-096c2ea81c5d" />
+
+
+## 📊 Analytics Dashboard
+- Interactive charts for:
+  - Keyword frequency
+  - Most active upload channels
+- Easy visualization using charts
+<img width="997" height="561" alt="image" src="https://github.com/user-attachments/assets/0d283175-c041-42b6-b16c-51c75055d2ca" />
+
+
+## 📥 Excel Export
+- Export flagged videos into `.xlsx` format
+- Useful for reports and tracking
+
+## 📲 Quick Sharing
+- Share suspicious URLs instantly through:
+  - WhatsApp
+  - Telegram
+  - Email
+
+---
+
+# 🚀 Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| React.js | Frontend Framework |
+| Tailwind CSS | UI Styling |
+| Lucide React | Icons |
+| Recharts | Analytics Charts |
+| SheetJS (XLSX) | Excel Export |
+| YouTube Data API v3 | Video Data Fetching |
+
+---
+
+# 📦 Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
